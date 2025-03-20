@@ -1,0 +1,68 @@
+/* 沙漠风主题 */
+:root {
+  --sand: #D2B48C;
+  --desert-sand: #EDC9AF;
+  --dark-sand: #C19A6B;
+  --text-color: #5C4033;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--desert-sand);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--sand);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid var(--dark-sand);
+}
+
+h1, h2 {
+  color: var(--text-color);
+}
+
+section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom: 1px solid var(--desert-sand);
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--sand);
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  header {
+    padding: 15px;
+  }
+  
+  section {
+    margin: 10px 0;
+    padding: 10px;
+  }
+}
